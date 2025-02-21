@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>True</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\eyeglasses_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
+    <None Remove="Resources\file_open_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
+    <None Remove="Resources\print_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
+    <None Remove="Resources\save_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\eyeglasses_24dp_000000_FILL0_wght400_GRAD0_opsz24.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\file_open_24dp_000000_FILL0_wght400_GRAD0_opsz24.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\print_24dp_000000_FILL0_wght400_GRAD0_opsz24.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\save_24dp_000000_FILL0_wght400_GRAD0_opsz24.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resource1.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resource1.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
