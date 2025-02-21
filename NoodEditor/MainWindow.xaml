@@ -15,7 +15,6 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <!--  Formatting Toolbar with Added Buttons  -->
         <ToolBar Grid.Row="0">
             <ComboBox
                 x:Name="fontSizeCombo"
@@ -81,8 +80,11 @@
                     Height="16"
                     Source="pack://application:,,,/Resources/print_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
             </Button>
-
             <Separator />
+            <Button
+                Click="AboutButton_Click"
+                Content="About"
+                ToolTip="About this software" />
 
         </ToolBar>
         <ScrollViewer

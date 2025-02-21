@@ -545,5 +545,11 @@ namespace NoodEditor
                 }
             }
         }
+
+        private void AboutButton_Click(object sender,  System.Windows.RoutedEventArgs e)
+        {
+            AboutPage ap = new AboutPage();
+            ap.ShowDialog();
+        }
     }
 }
