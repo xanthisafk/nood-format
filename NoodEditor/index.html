@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="./NoodEditor/Resources/logo.ico" />
+    <title>.nood</title>
+    <style>
+        body {
+            font-family: monospace, monospace;
+            background-color: #f5e1a4;
+            color: #5c3b1e;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3em;
+        }
+        .tagline {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+		.comparison-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        background: #fff;
+        color: #5c3b1e;
+        font-size: 1.1em;
+        border: 3px solid #5c3b1e;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    .comparison-table th, .comparison-table td {
+        border: 2px solid #5c3b1e;
+        padding: 14px;
+        text-align: center;
+    }
+    .comparison-table th {
+        background: #d9a441;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .comparison-table tr:nth-child(even) {
+        background: #f5e1a4;
+    }
+    .comparison-table tr:hover {
+        background: #eac97f;
+        transition: 0.3s ease-in-out;
+    }
+    
+    /* Make the .nood column stand out */
+    .comparison-table td:nth-child(4), 
+    .comparison-table th:nth-child(4) {
+        background: #8b5e3b;
+        color: #fff;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        border-left: 4px solid #5c3b1e;
+        border-right: 4px solid #5c3b1e;
+    }
+        .testimonial {
+            font-style: italic;
+            background: #fff;
+            padding: 10px;
+            margin: 10px auto;
+            width: 70%;
+            border-left: 5px solid #5c3b1e;
+        }
+        .footer {
+            margin-top: 50px;
+            font-size: 0.8em;
+        }
+		
+		.header {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			gap: 10px;
+		}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+		<img src="./NoodEditor/Resources/logo.png" alt="logo" width="250" height="250" />
+		<h1>.nood</h1>
+		</div>
+        <p class="tagline">Pointless piece of software made on a whim</p>
+        <img src="https://media.tenor.com/WjusFhlsab0AAAAi/peach-goma-ramen-noodles-slurp.gif" alt="'Peach Goma Ramen Noodles Slurp Sticker' from Tenor" width="300">
+		
+        
+        <h2>Why Nood?</h2>
+        <p>Honestly? No idea. But here it is! A completely unnecessary document editor with its own pointless file format.</p>
+        <p>Use it to make text slightly worse! Add images! Save them in a format no one supports!</p>
+		
+		<h2>See how well it compares against competing formats</h2>
+		<table class="comparison-table">
+            <tr>
+                <th>Feature</th>
+                <th>.pdf</th>
+                <th>.xps</th>
+                <th><strong>.nood</strong></th>
+            </tr>
+            <tr>
+                <td>Text Formatting</td>
+                <td>Yes, all the things.</td>
+                <td>Yes.</td>
+                <td>Sure</td>
+            </tr>
+            <tr>
+                <td>Images</td>
+                <td>Yes, high-quality.</td>
+                <td>Yes.</td>
+                <td>Yes, good luck</td>
+            </tr>
+            <tr>
+                <td>Compatibility</td>
+                <td>Universal, works everywhere.</td>
+                <td>Windows.</td>
+                <td>Your OS will stare in confusion</td>
+            </tr>
+            <tr>
+                <td>Security</td>
+                <td>Encryption, signing, and others.</td>
+                <td>Some.</td>
+                <td>lol</td>
+            </tr>
+            <tr>
+                <td>Purpose</td>
+                <td>Serious business documents.</td>
+                <td>Microsoft product.</td>
+                <td>Good question</td>
+            </tr>
+        </table>
+        
+        <h2>Testimonials</h2>
+        <div class="testimonial">"Send noods. Hahaha. Comedy!"</div>
+        <div class="testimonial">"I'd rather die than use this."</div>
+        <div class="testimonial">"You will pay for my doctor's appointment because I think I'm getting sick."</div>
+        <div class="testimonial">"Finally! A file format that does nothing. Amazing."</div>
+        <div class="testimonial">"Why? Just why?"</div>
+        <div class="testimonial">"It's def one of the formats of all time I tell you what."</div>
+        <div class="testimonial">"Holy f#####g s##t! This s##t sucks b##s."</div>
+        <h6>Become one of our satisfied customers today! <a href="mailto:xanthisafk@gmail.com">email me</a></h6>
+		
+        <h2>Get Nood Now</h2>
+        <p><a href="https://github.com/xanthisafk/nood-format">Download here!</a></p>
+		<p>Requirements: <strong title="yeah that's all that it supports">Windows</strong></p>
+        
+        <div class="footer">
+            <p>&copy; 2025 .nood. Made with zero thought or planning.</p>
+        </div>
+		<img src="https://media.tenor.com/5DJmDPSAwBsAAAAi/chugging-yum.gif" alt="'Chugging Yum Sticker' from Tenor" width="300">
+    </div>
+</body>
+</html>
