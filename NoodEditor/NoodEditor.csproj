@@ -7,13 +7,19 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
     <UseWindowsForms>True</UseWindowsForms>
+    <ApplicationIcon>Resources\logo.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="Resources\eyeglasses_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
     <None Remove="Resources\file_open_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
+    <None Remove="Resources\logo.png" />
     <None Remove="Resources\print_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
     <None Remove="Resources\save_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\logo.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,6 +29,7 @@
     <Resource Include="Resources\file_open_24dp_000000_FILL0_wght400_GRAD0_opsz24.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Resources\logo.png" />
     <Resource Include="Resources\print_24dp_000000_FILL0_wght400_GRAD0_opsz24.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
